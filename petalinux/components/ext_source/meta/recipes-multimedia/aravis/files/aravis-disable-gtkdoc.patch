@@ -1,0 +1,46 @@
+--- aravis-ARAVIS_0_6_1/autogen.sh	2018-02-24 03:42:29.823333500 +0300
++++ aravis-ARAVIS_0_6_1/autogen.sh	2018-02-24 03:52:43.178773943 +0300
+@@ -25,7 +25,6 @@
+ 
+ aclocal --install -I m4 || exit 1
+ intltoolize --force --copy --automake || exit 1
+-gtkdocize --copy || exit 1
+ autoreconf --verbose --force --install || exit 1
+ 
+ cd "$olddir"
+diff -Nur aravis-ARAVIS_0_6_1/configure.ac aravis-ARAVIS_0_6_1/configure.ac
+--- aravis-ARAVIS_0_6_1/configure.ac   2018-02-24 04:14:42.119630395 +0300
++++ aravis-ARAVIS_0_6_1/configure.ac      2018-02-24 04:15:00.243690756 +0300
+@@ -268,8 +268,8 @@
+    AM_CONDITIONAL([HAVE_INTROSPECTION], [false])
+    enable_introspection=no])
+ 
+-GTK_DOC_CHECK([1.14],[--flavour no-tmpl])
+-AM_CONDITIONAL([BUILD_GTK_DOC], [test "x$enable_gtk_doc" = "xyes" || test ! -f "autogen.sh"])
++#GTK_DOC_CHECK([1.14],[--flavour no-tmpl])
++#AM_CONDITIONAL([BUILD_GTK_DOC], [test "x$enable_gtk_doc" = "xyes" || test ! -f "autogen.sh"])
+ 
+ APPSTREAM_XML
+
+@@ -286,9 +286,6 @@
+ gst-0.10/Makefile
+ tests/Makefile
+ po/Makefile.in
+-docs/Makefile
+-docs/reference/Makefile
+-docs/reference/aravis/Makefile
+ aravis.pc
+ ])
+ AC_OUTPUT
+diff -Nur aravis-ARAVIS_0_6_1/Makefile.am aravis-ARAVIS_0_6_1/Makefile.am
+--- aravis-ARAVIS_0_6_1/Makefile.am    2018-02-24 04:14:42.115630382 +0300
++++ aravis-ARAVIS_0_6_1/Makefile.am       2018-02-24 04:15:22.343764278 +0300
+@@ -20,7 +20,7 @@
+ SUBDIRS += gst-0.10
+ endif
+ 
+-SUBDIRS += tests po docs
++#SUBDIRS += tests po docs
+ 
+ aravisdocdir = ${docdir}/aravis-@ARAVIS_API_VERSION@
+ aravisdoc_DATA =       \

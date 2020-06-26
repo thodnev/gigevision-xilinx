@@ -1,0 +1,198 @@
+23:16:26 INFO  : Registering command handlers for SDK TCF services
+23:16:27 INFO  : Adding '/opt/pkg/petalinux/tools/hsm/data/embeddedsw' as a new local repository.
+23:16:29 INFO  : Result from executing command 'getProjects': 
+23:16:29 INFO  : Result from executing command 'getProjects': 
+23:16:29 INFO  : Result from executing command 'getProjects': 
+23:16:45 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'set': null
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:46 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:47 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:47 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:47 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:47 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:47 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:47 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:47 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:16:47 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:17:19 INFO  : Registering command handlers for SDK TCF services
+23:46:14 INFO  : Registering command handlers for SDK TCF services
+23:03:01 INFO  : Registering command handlers for SDK TCF services
+23:03:02 INFO  : Restoring local repository preferences: 
+		 /opt/pkg/petalinux/tools/hsm/data/embeddedsw
+23:03:03 INFO  : Result from executing command 'getProjects': fsbl_hwproj
+23:03:03 INFO  : Result from executing command 'getProjects': fsbl_bsp
+23:03:03 INFO  : Result from executing command 'getProjects': fsbl
+23:03:05 INFO  : Copied contents of /home/digilent/work/git/Petalinux-Zybo-Z7-20/Zybo-Z7-20/build/tmp/deploy/images/plnx_arm/Xilinx-plnx_arm.hdf into /fsbl_hwproj/system.hdf.
+23:03:09 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:03:10 INFO  : 
+23:03:10 INFO  : Updating hardware inferred compiler options for fsbl.
+23:03:10 INFO  : Clearing existing target manager status.
+23:03:10 WARN  : Given IPC port value is invalid. Using default port 2350
+23:03:10 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+23:03:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+23:03:13 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:03:14 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:03:14 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:14 INFO  : Result from executing command 'set': null
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:14 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+23:03:15 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:03:24 INFO  : Registering command handlers for SDK TCF services
+02:23:58 INFO  : Registering command handlers for SDK TCF services
+02:23:59 INFO  : Restoring local repository preferences: 
+		 /opt/pkg/petalinux/tools/hsm/data/embeddedsw
+02:23:59 INFO  : Result from executing command 'getProjects': fsbl_hwproj
+02:23:59 INFO  : Result from executing command 'getProjects': fsbl_bsp
+02:23:59 INFO  : Result from executing command 'getProjects': fsbl
+02:24:02 INFO  : Copied contents of /home/digilent/work/git/Petalinux-Zybo-Z7-20/Zybo-Z7-20/build/tmp/deploy/images/plnx_arm/Xilinx-plnx_arm.hdf into /fsbl_hwproj/system.hdf.
+02:24:05 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+02:24:05 INFO  : 
+02:24:06 INFO  : Updating hardware inferred compiler options for fsbl.
+02:24:06 INFO  : Clearing existing target manager status.
+02:24:06 WARN  : Given IPC port value is invalid. Using default port 2350
+02:24:06 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use (Bind failed)
+02:24:06 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+02:24:08 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+02:24:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+02:24:09 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+02:24:09 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'set': null
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+02:24:09 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:24:18 INFO  : Registering command handlers for SDK TCF services
+15:33:16 INFO  : Registering command handlers for SDK TCF services
+15:33:17 INFO  : Restoring local repository preferences: 
+		 /opt/pkg/petalinux/tools/hsm/data/embeddedsw
+15:33:19 INFO  : Result from executing command 'getProjects': fsbl_hwproj
+15:33:19 INFO  : Result from executing command 'getProjects': fsbl_bsp
+15:33:19 INFO  : Result from executing command 'getProjects': fsbl
+15:33:25 INFO  : Copied contents of /home/digilent/work/git/Petalinux-Zybo-Z7-20/Zybo-Z7-20/build/tmp/deploy/images/plnx_arm/Xilinx-plnx_arm.hdf into /fsbl_hwproj/system.hdf.
+15:33:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:33:33 INFO  : 
+15:33:35 INFO  : Updating hardware inferred compiler options for fsbl.
+15:33:35 INFO  : Clearing existing target manager status.
+15:33:35 WARN  : Given IPC port value is invalid. Using default port 2350
+15:33:35 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+15:33:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+15:33:40 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:33:42 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:33:42 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:42 INFO  : Result from executing command 'set': null
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:42 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:43 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:43 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:43 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:43 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:43 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:43 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:43 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:43 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+15:33:44 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:33:54 INFO  : Registering command handlers for SDK TCF services
+18:53:06 INFO  : Registering command handlers for SDK TCF services
+18:53:08 INFO  : Restoring local repository preferences: 
+		 /opt/pkg/petalinux/tools/hsm/data/embeddedsw
+18:53:10 INFO  : Result from executing command 'getProjects': fsbl_hwproj
+18:53:10 INFO  : Result from executing command 'getProjects': fsbl_bsp
+18:53:10 INFO  : Result from executing command 'getProjects': fsbl
+18:53:13 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+18:53:13 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+18:53:13 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:15 INFO  : Result from executing command 'set': null
+18:53:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:15 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:18 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:18 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:18 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:18 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:18 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:18 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:18 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:18 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+18:53:48 INFO  : Registering command handlers for SDK TCF services
+22:57:51 INFO  : Registering command handlers for SDK TCF services
+16:13:12 INFO  : Registering command handlers for SDK TCF services
+16:13:16 INFO  : Restoring local repository preferences: 
+		 /opt/pkg/petalinux/tools/hsm/data/embeddedsw
+16:13:20 INFO  : Result from executing command 'getProjects': fsbl_hwproj
+16:13:20 INFO  : Result from executing command 'getProjects': fsbl_bsp
+16:13:20 INFO  : Result from executing command 'getProjects': fsbl
+16:13:27 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+16:13:27 INFO  : Result from executing command 'getDefinitions': {assembler-flags={description=Miscellaneous flags for assembler , props=add set}, build-config={values=Debug,Release, description=Get/set build configuration, props=set}, library-search-path={description=Search path for the libraries added, props=add remove}, compiler-misc={description=Compiler miscellaneous flags, props=add set}, define-compiler-symbols={description=Define symbols. Ex. MYSYMBOL, props=add remove}, compiler-optimization={values=None (-O0), Optimize (-O1), Optimize more (-O2), Optimize most (-O3), Optimize for size (-Os), description=Optimization level, props=set}, libraries={description=Libraries to be added while linking, props=add remove}, undef-compiler-symbols={description=Undefine symbols. Ex. MYSYMBOL, props=add remove}, linker-misc={description=Linker miscellaneous flags, props=add set}, include-path={description=Include path for header files, props=add remove}, linker-script={description=Linker script for linking the program sections, props=set}}
+16:13:27 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:30 INFO  : Result from executing command 'set': null
+16:13:30 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:30 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:30 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:30 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:30 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:30 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:30 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:30 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:52 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:52 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:52 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:52 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:52 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:52 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:52 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:13:52 INFO  : Result from executing command 'getProjects': fsbl;fsbl_bsp;fsbl_hwproj
+16:14:11 INFO  : Registering command handlers for SDK TCF services

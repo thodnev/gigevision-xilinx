@@ -1,0 +1,11 @@
+--- aravis-ARAVIS_0_6_1/src/arvbufferprivate.h
++++ aravis-ARAVIS_0_6_1/src/arvbufferprivate.h
+@@ -23,7 +23,7 @@
+ #ifndef ARV_BUFFER_PRIVATE_H
+ #define ARV_BUFFER_PRIVATE_H
+ 
+-#if !defined (ARV_H_INSIDE) && !defined (ARAVIS_COMPILATION)
++#if !defined (ARV_H_INSIDE) && !defined (ARAVIS_COMPILATION) && !defined(EXTENSION_BUILD)
+ #error "Only <arv.h> can be included directly."
+ #endif
+ 

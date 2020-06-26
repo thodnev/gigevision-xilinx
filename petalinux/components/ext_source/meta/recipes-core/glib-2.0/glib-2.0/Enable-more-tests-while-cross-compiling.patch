@@ -1,0 +1,52 @@
+From 70e462e070f8eb20b7660c1cf88271c0449e43cc Mon Sep 17 00:00:00 2001
+From: Jussi Kukkonen <jussi.kukkonen@intel.com>
+Date: Mon, 9 Nov 2015 11:07:27 +0200
+Subject: [PATCH] Enable more tests while cross-compiling
+
+Upstream disables a few tests while cross-compiling because their build requires
+running other built binaries. This usually makes sense but in the cross-compile
+case we can depend on glib-2.0-native.
+
+Upstream-Status: Inappropriate [OE specific]
+Signed-off-by: Jussi Kukkonen <jussi.kukkonen@intel.com>
+---
+ gio/tests/Makefile.am | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+diff --git a/gio/tests/Makefile.am b/gio/tests/Makefile.am
+index c4e7a92..633e85c 100644
+--- a/gio/tests/Makefile.am
++++ b/gio/tests/Makefile.am
+@@ -583,10 +583,9 @@ test_programs += \
+ endif
+ 
+ # -----------------------------------------------------------------------------
+-#  The resources test is a bit more complicated, and we cannot build it when
+-#  cross-compiling GIO because it requires running a binary...
++#  The resources test is a bit more complicated, and requires glib-native
++#  for running a binary
+ 
+-if !CROSS_COMPILING
+ test_programs += resources
+ resources_SOURCES = resources.c
+ nodist_resources_SOURCES = test_resources.c test_resources2.c test_resources2.h
+@@ -611,7 +610,11 @@ if !ENABLE_INSTALLED_TESTS
+ libresourceplugin_la_LDFLAGS += -rpath /
+ endif
+ 
++if !CROSS_COMPILING
+ glib_compile_resources=$(top_builddir)/gio/glib-compile-resources
++else
++glib_compile_resources=glib-compile-resources
++endif
+ 
+ test-generated.txt: test1.txt
+ 	$(AM_V_GEN) echo "Generated" > $@ && \
+@@ -632,7 +635,6 @@ test.gresource: test.gresource.xml Makefile $(shell $(glib_compile_resources) --
+ 
+ EXTRA_DIST += test.gresource.xml test1.txt test2.gresource.xml test2.txt test3.gresource.xml test3.txt test4.gresource.xml
+ CLEANFILES += test-generated.txt test_resources.c test_resources2.[ch] plugin_resources.c test.gresource
+-endif # !CROSS_COMPILING
+ 
+ BUILT_SOURCES += giotypefuncs.inc
+ 
